@@ -30,6 +30,9 @@ AttendanceStatus 테이블에 출근 기록 추가
 
 📝 2. 회원가입
 
+![image](https://github.com/user-attachments/assets/9237dbe6-aa40-438d-b065-1442803984f6)
+
+
 📄 회원가입 화면에서는 다음 정보를 입력:
 
 👤 아이디
@@ -45,6 +48,10 @@ AttendanceStatus 테이블에 출근 기록 추가
 정상 입력 시 Users 테이블에 계정 등록
 
 🖥️ 3. 메인 대시보드 (로그인 성공 후)
+
+
+![image](https://github.com/user-attachments/assets/45b44085-31c9-44b6-8967-64bcba338e0d)
+
 
 로그인 후 메인보드(📷 5번 이미지)로 이동하며 다음 메뉴 제공:
 
@@ -82,6 +89,9 @@ AttendanceStatus 테이블에 출근 기록 추가
 
 🏭 2. 생산관리
 
+![image](https://github.com/user-attachments/assets/53a338ac-cf69-4d9e-8c40-75b6bad5b1ee)
+
+
 생산 지시 및 실적 정보를 관리:
 
 📦 제품코드
@@ -94,6 +104,9 @@ AttendanceStatus 테이블에 출근 기록 추가
 
 📦 3. 자재관리
 
+![image](https://github.com/user-attachments/assets/437fd60f-768f-422c-bfd5-59cd54d80fe4)
+
+
 자재 정보 통합 관리:
 
 📊 자재별 재고 수량 (MaterialInventory)
@@ -102,11 +115,17 @@ AttendanceStatus 테이블에 출근 기록 추가
 
 📉 재고 부족 / 입출 건수 / 총 자재 수 요약
 
-📅 4. 일정 / 스케쥴 관리
+📅 4. 인력/관리
 
-생산/자재 관련 전반적인 일정 스케쥴 등록 및 조회 제공
+![image](https://github.com/user-attachments/assets/6befdf77-b705-416e-b958-36b6bfa3b525)
+
+
+사용자의 정보 및 상태등을 볼 수 있음
 
 🛠️ 관리자 메뉴 (Admin Only)
+
+![image](https://github.com/user-attachments/assets/c7a53868-b3d8-4e0e-9fbd-d08e8742480b)
+
 
 Role = Admin만 접근 가능 (권한 체크)
 
@@ -120,11 +139,16 @@ Role = Admin만 접근 가능 (권한 체크)
 
 🧾 5.1 자재 등록 관리
 
+
+
 자재 등록 시:
 
 MaterialInventory에 자재코드, 재고수량, 최근 업데이트 자동 입력
 
 📋 5.2 인벤토리 입출 이력 관리
+
+![image](https://github.com/user-attachments/assets/ce293b0f-4a5c-4168-87d3-677f90491758)
+
 
 MaterialTransactions에 입출 이력 저장:
 
@@ -142,17 +166,39 @@ AttendanceStatus.LogoutTime → 현재 시점으로 업데이트
 
 🖥️ C# WinForms
 
-🗃️ MS SQL Server (MYDB2)
+주요 테이블 구조
 
-주요 테이블:
+🧑‍💼 Users: 사용자 인증 및 로그인 정보
 
-Users: 사용자 정보 / 인증
+Username, Password, Role, Department, IsActive, LastLogin 등 포함
 
-AttendanceStatus: 출퇴근 / 지각 기록
+⏰ AttendanceStatus: 출퇴근 기록 및 지각 여부
 
-MaterialInventory: 자재 재고 현황
+LoginTime, LogoutTime, PunctualityStatus 등
 
-MaterialTransactions: 입출고 이력
+🧾 Workers: 직원 기본 정보 테이블
+
+UserID, WorkerCode, Department, Shift, HireDate, SkillLevel
+
+📦 Materials: 자재 기본 정보
+
+MaterialName, Unit, Category, SafetyStock (안전재고)
+
+📊 MaterialInventory: 자재 재고 현황
+
+StockQty, LastUpdate 등 포함
+
+🔁 MaterialTransactions: 자재 입출고 이력
+
+TransactionType(IN/OUT), Quantity, TransactionDate, Note
+
+📋 ProductionOrders: 생산 지시 정보
+
+ProductCode, Quantity, Status, OrderDate, DueDate, Department 등
+
+🏭 ProductionResults: 생산 실적 기록
+
+ProducedQty, DefectQty, ResultDate 등
 
 🧠 핵심 로직 요약
 
