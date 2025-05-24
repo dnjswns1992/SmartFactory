@@ -65,6 +65,11 @@ AttendanceStatus 테이블에 출근 기록 추가
 ### 🖥️ 3. 메인 대시보드 (로그인 후)
 
 
+
+
+
+
+
 ![image](https://github.com/user-attachments/assets/45b44085-31c9-44b6-8967-64bcba338e0d)
 
 
@@ -72,7 +77,7 @@ AttendanceStatus 테이블에 출근 기록 추가
 
 
 
-로그인 후 메인보드(📷 5번 이미지)로 이동하며 다음 메뉴 제공:
+로그인 후 메인보드로로 이동하며 다음 메뉴 제공:
 
 📌 개요
 
@@ -95,6 +100,10 @@ AttendanceStatus 테이블에 출근 기록 추가
 🔓 로그아웃
 
 📊 세부 메뉴 설명
+
+
+
+
 
 ## 📊 주요 메뉴 기능
 
