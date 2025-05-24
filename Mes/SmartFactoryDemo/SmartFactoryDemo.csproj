@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SmartFactoryDemo</RootNamespace>
+    <AssemblyName>SmartFactoryDemo</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.7\lib\net48\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="HarfBuzzSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <HintPath>..\packages\HarfBuzzSharp.7.3.0.3\lib\net462\HarfBuzzSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="ScottPlot, Version=5.0.55.0, Culture=neutral, PublicKeyToken=86698dc10387c39e, processorArchitecture=MSIL">
+      <HintPath>..\packages\ScottPlot.5.0.55\lib\net462\ScottPlot.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp, Version=2.88.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <HintPath>..\packages\SkiaSharp.2.88.9\lib\net462\SkiaSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp.HarfBuzz, Version=2.88.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <HintPath>..\packages\SkiaSharp.HarfBuzz.2.88.9\lib\net462\SkiaSharp.HarfBuzz.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\ManagerController\EmployeeManagementControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controller\ManagerController\EmployeeManagementControl.Designer.cs">
+      <DependentUpon>EmployeeManagementControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\ManagerController\MaterialRegisterControll.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controller\ManagerController\MaterialRegisterControll.Designer.cs">
+      <DependentUpon>MaterialRegisterControll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\ManagerController\MaterialInventoryControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controller\ManagerController\MaterialInventoryControl.Designer.cs">
+      <DependentUpon>MaterialInventoryControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Repository\ManagerRepository.cs" />
+    <Compile Include="Repository\Material.cs" />
+    <Compile Include="Controller\MaterialController\MaterialInventoryControll.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controller\MaterialController\MaterialInventoryControll.Designer.cs">
+      <DependentUpon>MaterialInventoryControll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\MaterialController\MaterialListController.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controller\MaterialController\MaterialListController.Designer.cs">
+      <DependentUpon>MaterialListController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\MaterialController\MaterialDashBoardController.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controller\MaterialController\MaterialDashBoardController.Designer.cs">
+      <DependentUpon>MaterialDashBoardController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\MaterialController\MaterialTransactionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controller\MaterialController\MaterialTransactionControl.Designer.cs">
+      <DependentUpon>MaterialTransactionControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SmartFactoryForms\AttendanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmartFactoryForms\AttendanceForm.Designer.cs">
+      <DependentUpon>AttendanceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Repository\InsertAttendanceStatus.cs" />
+    <Compile Include="Repository\Users.cs" />
+    <Compile Include="Controller\EmployeeController\Employee_managementControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controller\EmployeeController\Employee_managementControl.Designer.cs">
+      <DependentUpon>Employee_managementControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SmartFactoryForms\CalendarForms\CalendarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmartFactoryForms\CalendarForms\CalendarForm.Designer.cs">
+      <DependentUpon>CalendarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SmartFactoryForms\DashboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmartFactoryForms\DashboardForm.Designer.cs">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SmartFactoryForms\Employee_management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmartFactoryForms\Employee_management.Designer.cs">
+      <DependentUpon>Employee_management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SmartFactoryForms\ManagerForms\ManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmartFactoryForms\ManagerForms\ManagerForm.Designer.cs">
+      <DependentUpon>ManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SmartFactoryForms\MaterialForms\MaterialDashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmartFactoryForms\MaterialForms\MaterialDashBoard.Designer.cs">
+      <DependentUpon>MaterialDashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SmartFactoryForms\ShellForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmartFactoryForms\ShellForm.Designer.cs">
+      <DependentUpon>ShellForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SmartFactoryForms\LoadingScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmartFactoryForms\LoadingScreen.Designer.cs">
+      <DependentUpon>LoadingScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SmartFactoryForms\Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmartFactoryForms\Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Repository\ProductionOrderService.cs" />
+    <Compile Include="Repository\ProductionResults.cs" />
+    <Compile Include="SmartFactoryForms\Production_management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmartFactoryForms\Production_management.Designer.cs">
+      <DependentUpon>Production_management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SmartFactoryForms\RegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmartFactoryForms\RegisterForm.Designer.cs">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Controller\ManagerController\EmployeeManagementControl.resx">
+      <DependentUpon>EmployeeManagementControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\ManagerController\MaterialRegisterControll.resx">
+      <DependentUpon>MaterialRegisterControll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\ManagerController\MaterialInventoryControl.resx">
+      <DependentUpon>MaterialInventoryControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\MaterialController\MaterialInventoryControll.resx">
+      <DependentUpon>MaterialInventoryControll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\MaterialController\MaterialListController.resx">
+      <DependentUpon>MaterialListController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\MaterialController\MaterialDashBoardController.resx">
+      <DependentUpon>MaterialDashBoardController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\MaterialController\MaterialTransactionControl.resx">
+      <DependentUpon>MaterialTransactionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmartFactoryForms\AttendanceForm.resx">
+      <DependentUpon>AttendanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controller\EmployeeController\Employee_managementControl.resx">
+      <DependentUpon>Employee_managementControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmartFactoryForms\CalendarForms\CalendarForm.resx">
+      <DependentUpon>CalendarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmartFactoryForms\DashboardForm.resx">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmartFactoryForms\Employee_management.resx">
+      <DependentUpon>Employee_management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmartFactoryForms\ManagerForms\ManagerForm.resx">
+      <DependentUpon>ManagerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmartFactoryForms\MaterialForms\MaterialDashBoard.resx">
+      <DependentUpon>MaterialDashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmartFactoryForms\ShellForm.resx">
+      <DependentUpon>ShellForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmartFactoryForms\LoadingScreen.resx">
+      <DependentUpon>LoadingScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmartFactoryForms\Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmartFactoryForms\Production_management.resx">
+      <DependentUpon>Production_management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SmartFactoryForms\RegisterForm.resx">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-blind-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-code-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-employee-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-lock-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-login-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-eyes-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_processing20191028-12475-a3o849.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f31331d3a3c314b5a4ac896e341b913e.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\04ecc5_768bfcc158ca4b78abdcaa42c19d98c5~mv2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image May 18, 2025, 06_29_02 PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9d2ec3d0-df62-4ae2-a30c-74ad3068030a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image May 19, 2025, 05_03_23 PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image May 19, 2025, 06_34_06 PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-production-9321489.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-material-management-10849179.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\설비관리.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\인력관리.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\품질관리.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\일정관리.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\리포트.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\시스템 설정.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\관리자.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\오픈메뉴.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\대쉬보드.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\메인.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\팩토리.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-filter-107799.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\인력관리_대쉬보드.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\인사관리_대쉬보드.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\로그아웃.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-phone-94915.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-touch-screen-3162514.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\파워버튼.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girl-9540346_1280.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\materialRegister.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\materialRegister01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InventoryInOut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\아이디.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\이름.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\부서.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-programming-3973133.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-blind-722357.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-password-protection-15254334.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freepik__the-style-is-candid-image-photography-with-natural__88847.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image May 24, 2025, 01_57_07 AM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\자재관리.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\스케쥴관리.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\개요.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\생산관리.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\설비 - 복사본.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\자재 - 복사본.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\인력.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\HarfBuzzSharp.NativeAssets.macOS.7.3.0.3\build\net462\HarfBuzzSharp.NativeAssets.macOS.targets" Condition="Exists('..\packages\HarfBuzzSharp.NativeAssets.macOS.7.3.0.3\build\net462\HarfBuzzSharp.NativeAssets.macOS.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>이 프로젝트는 이 컴퓨터에 없는 NuGet 패키지를 참조합니다. 해당 패키지를 다운로드하려면 NuGet 패키지 복원을 사용하십시오. 자세한 내용은 http://go.microsoft.com/fwlink/?LinkID=322105를 참조하십시오. 누락된 파일은 {0}입니다.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\HarfBuzzSharp.NativeAssets.macOS.7.3.0.3\build\net462\HarfBuzzSharp.NativeAssets.macOS.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\HarfBuzzSharp.NativeAssets.macOS.7.3.0.3\build\net462\HarfBuzzSharp.NativeAssets.macOS.targets'))" />
+    <Error Condition="!Exists('..\packages\HarfBuzzSharp.NativeAssets.Win32.7.3.0.3\build\net462\HarfBuzzSharp.NativeAssets.Win32.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\HarfBuzzSharp.NativeAssets.Win32.7.3.0.3\build\net462\HarfBuzzSharp.NativeAssets.Win32.targets'))" />
+    <Error Condition="!Exists('..\packages\SkiaSharp.NativeAssets.macOS.2.88.9\build\net462\SkiaSharp.NativeAssets.macOS.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SkiaSharp.NativeAssets.macOS.2.88.9\build\net462\SkiaSharp.NativeAssets.macOS.targets'))" />
+    <Error Condition="!Exists('..\packages\SkiaSharp.NativeAssets.Win32.2.88.9\build\net462\SkiaSharp.NativeAssets.Win32.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SkiaSharp.NativeAssets.Win32.2.88.9\build\net462\SkiaSharp.NativeAssets.Win32.targets'))" />
+    <Error Condition="!Exists('..\packages\HarfBuzzSharp.NativeAssets.Linux.7.3.0.3\build\net462\HarfBuzzSharp.NativeAssets.Linux.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\HarfBuzzSharp.NativeAssets.Linux.7.3.0.3\build\net462\HarfBuzzSharp.NativeAssets.Linux.targets'))" />
+    <Error Condition="!Exists('..\packages\SkiaSharp.NativeAssets.Linux.NoDependencies.2.88.9\build\net462\SkiaSharp.NativeAssets.Linux.NoDependencies.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SkiaSharp.NativeAssets.Linux.NoDependencies.2.88.9\build\net462\SkiaSharp.NativeAssets.Linux.NoDependencies.targets'))" />
+  </Target>
+  <Import Project="..\packages\HarfBuzzSharp.NativeAssets.Win32.7.3.0.3\build\net462\HarfBuzzSharp.NativeAssets.Win32.targets" Condition="Exists('..\packages\HarfBuzzSharp.NativeAssets.Win32.7.3.0.3\build\net462\HarfBuzzSharp.NativeAssets.Win32.targets')" />
+  <Import Project="..\packages\SkiaSharp.NativeAssets.macOS.2.88.9\build\net462\SkiaSharp.NativeAssets.macOS.targets" Condition="Exists('..\packages\SkiaSharp.NativeAssets.macOS.2.88.9\build\net462\SkiaSharp.NativeAssets.macOS.targets')" />
+  <Import Project="..\packages\SkiaSharp.NativeAssets.Win32.2.88.9\build\net462\SkiaSharp.NativeAssets.Win32.targets" Condition="Exists('..\packages\SkiaSharp.NativeAssets.Win32.2.88.9\build\net462\SkiaSharp.NativeAssets.Win32.targets')" />
+  <Import Project="..\packages\HarfBuzzSharp.NativeAssets.Linux.7.3.0.3\build\net462\HarfBuzzSharp.NativeAssets.Linux.targets" Condition="Exists('..\packages\HarfBuzzSharp.NativeAssets.Linux.7.3.0.3\build\net462\HarfBuzzSharp.NativeAssets.Linux.targets')" />
+  <Import Project="..\packages\SkiaSharp.NativeAssets.Linux.NoDependencies.2.88.9\build\net462\SkiaSharp.NativeAssets.Linux.NoDependencies.targets" Condition="Exists('..\packages\SkiaSharp.NativeAssets.Linux.NoDependencies.2.88.9\build\net462\SkiaSharp.NativeAssets.Linux.NoDependencies.targets')" />
+</Project>
