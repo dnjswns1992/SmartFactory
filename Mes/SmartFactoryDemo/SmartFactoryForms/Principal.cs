@@ -125,7 +125,7 @@ namespace SmartFactoryDemo
         {
             label_dashboard.Text = "Manpower management";
             guna2PictureBox3_dashboard.Image = Properties.Resources.인력관리_대쉬보드;
-            Production_management production = new Production_management();
+            Production_management production = new Production_management(this);
             production.TopLevel = false;
             production.FormBorderStyle = FormBorderStyle.None;
             production.Dock = DockStyle.Fill;

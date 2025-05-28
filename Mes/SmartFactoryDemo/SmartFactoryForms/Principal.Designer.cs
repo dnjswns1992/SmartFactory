@@ -641,7 +641,7 @@
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox3;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        public Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox4;
         private Guna.UI2.WinForms.Guna2Button guna2Button1_overview;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;

@@ -1,80 +1,88 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\",
+  "WorkspaceRootPath": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|c:\\users\\wooheeseop\\desktop\\smartfactory\\smartfactory\\smartfactorydemo\\smartfactoryforms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\smartfactoryforms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|c:\\users\\wooheeseop\\desktop\\git clone\\smartfactory\\mes\\smartfactorydemo\\smartfactoryforms\\principal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\smartfactoryforms\\principal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\smartfactorydemo\\smartfactoryforms\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\smartfactorydemo\\smartfactoryforms\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\smartfactoryforms\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\smartfactorydemo\\smartfactoryforms\\production_management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\smartfactorydemo\\smartfactoryforms\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\smartfactoryforms\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\smartfactorydemo\\smartfactoryforms\\production_management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\smartfactoryforms\\production_management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\smartfactorydemo\\smartfactoryforms\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\smartfactoryforms\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\smartfactorydemo\\smartfactoryforms\\production_management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\smartfactoryforms\\production_management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\smartfactorydemo\\smartfactoryforms\\shellform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\smartfactoryforms\\shellform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\smartfactorydemo\\smartfactoryforms\\employee_management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\smartfactoryforms\\employee_management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|SmartFactoryDemo||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\smartfactorydemo\\smartfactoryforms\\shellform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\smartfactoryforms\\shellform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\smartfactorydemo\\smartfactoryforms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\smartfactoryforms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\smartfactorydemo\\controller\\materialcontroller\\materialdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\controller\\materialcontroller\\materialdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\smartfactorydemo\\controller\\materialcontroller\\materialtransactioncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\controller\\materialcontroller\\materialtransactioncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\smartfactorydemo\\controller\\materialcontroller\\materiallistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\controller\\materialcontroller\\materiallistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\smartfactorydemo\\repository\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\repository\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\smartfactorydemo\\controller\\materialcontroller\\materialtransactioncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\controller\\materialcontroller\\materialtransactioncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\smartfactorydemo\\controller\\materialcontroller\\materialinventorycontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\controller\\materialcontroller\\materialinventorycontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\smartfactorydemo\\controller\\materialcontroller\\materialinventorycontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\controller\\materialcontroller\\materialinventorycontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\smartfactorydemo\\controller\\managercontroller\\materialinventorycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\controller\\managercontroller\\materialinventorycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\smartfactorydemo\\smartfactoryforms\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\smartfactorydemo\\smartfactoryforms\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\smartfactoryforms\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\smartfactorydemo\\smartfactoryforms\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\smartfactorydemo\\smartfactoryforms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\smartfactoryforms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\smartfactorydemo\\controller\\materialcontroller\\materialdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\controller\\materialcontroller\\materialdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\smartfactorydemo\\controller\\materialcontroller\\materialtransactioncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\controller\\materialcontroller\\materialtransactioncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\smartfactorydemo\\controller\\materialcontroller\\materiallistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\controller\\materialcontroller\\materiallistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\smartfactorydemo\\repository\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\repository\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\smartfactorydemo\\controller\\materialcontroller\\materialtransactioncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\controller\\materialcontroller\\materialtransactioncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\smartfactorydemo\\controller\\materialcontroller\\materialinventorycontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\controller\\materialcontroller\\materialinventorycontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\smartfactorydemo\\controller\\materialcontroller\\materialinventorycontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\controller\\materialcontroller\\materialinventorycontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\smartfactorydemo\\controller\\managercontroller\\materialinventorycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\controller\\managercontroller\\materialinventorycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\smartfactorydemo\\smartfactoryforms\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\smartfactoryforms\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\smartfactorydemo\\controller\\managercontroller\\materialregistercontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\smartfactorydemo\\controller\\managercontroller\\materialregistercontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\controller\\managercontroller\\materialregistercontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\smartfactorydemo\\controller\\managercontroller\\materialinventorycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\smartfactorydemo\\controller\\managercontroller\\materialinventorycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5B70B822-1BBD-4751-9DFF-BE0DD0B43A00}|SmartFactoryDemo\\SmartFactoryDemo.csproj|solutionrelative:smartfactorydemo\\controller\\managercontroller\\materialinventorycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -85,55 +93,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "ShellForm.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\SmartFactoryForms\\ShellForm.cs",
+              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\SmartFactoryForms\\ShellForm.cs",
               "RelativeDocumentMoniker": "SmartFactoryDemo\\SmartFactoryForms\\ShellForm.cs",
-              "ToolTip": "C:\\Users\\WooHeeSeop\\source\\repos\\SmartFactoryDemo\\SmartFactoryDemo\\SmartFactoryForms\\ShellForm.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "..\\..\\..\\source\\repos\\SmartFactoryDemo\\SmartFactoryDemo\\SmartFactoryForms\\ShellForm.cs [\uB514\uC790\uC778]",
+              "ToolTip": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\SmartFactoryForms\\ShellForm.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "SmartFactoryDemo\\SmartFactoryForms\\ShellForm.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T16:51:36.692Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Production_management.cs",
-              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\SmartFactoryForms\\Production_management.cs",
-              "RelativeDocumentMoniker": "SmartFactoryDemo\\SmartFactoryForms\\Production_management.cs",
-              "ToolTip": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\SmartFactoryForms\\Production_management.cs",
-              "RelativeToolTip": "SmartFactoryDemo\\SmartFactoryForms\\Production_management.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAjwD8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T17:06:11.173Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Principal.cs",
-              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\SmartFactoryForms\\Principal.cs",
-              "RelativeDocumentMoniker": "SmartFactoryDemo\\SmartFactoryForms\\Principal.cs",
-              "ToolTip": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\SmartFactoryForms\\Principal.cs",
-              "RelativeToolTip": "SmartFactoryDemo\\SmartFactoryForms\\Principal.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T17:05:39.252Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RegisterForm.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\SmartFactoryForms\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "SmartFactoryDemo\\SmartFactoryForms\\RegisterForm.cs",
-              "ToolTip": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\SmartFactoryForms\\RegisterForm.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "SmartFactoryDemo\\SmartFactoryForms\\RegisterForm.cs [\uB514\uC790\uC778]",
+              "Title": "Principal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\SmartFactoryForms\\Principal.Designer.cs",
+              "RelativeDocumentMoniker": "SmartFactoryDemo\\SmartFactoryForms\\Principal.Designer.cs",
+              "ToolTip": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\SmartFactoryForms\\Principal.Designer.cs",
+              "RelativeToolTip": "SmartFactoryDemo\\SmartFactoryForms\\Principal.Designer.cs",
+              "ViewState": "AgIAAHoCAAAAAAAAAAAjwH8CAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T15:46:17.825Z",
-              "EditorCaption": " [\uB514\uC790\uC778]"
+              "WhenOpened": "2025-05-28T21:13:54.374Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -141,33 +126,94 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Production_management.cs",
+              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\SmartFactoryForms\\Production_management.cs",
+              "RelativeDocumentMoniker": "SmartFactoryDemo\\SmartFactoryForms\\Production_management.cs",
+              "ToolTip": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\SmartFactoryForms\\Production_management.cs",
+              "RelativeToolTip": "SmartFactoryDemo\\SmartFactoryForms\\Production_management.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:10:41.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Production_management.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\SmartFactoryForms\\Production_management.cs",
+              "RelativeDocumentMoniker": "SmartFactoryDemo\\SmartFactoryForms\\Production_management.cs",
+              "ToolTip": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\SmartFactoryForms\\Production_management.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "SmartFactoryDemo\\SmartFactoryForms\\Production_management.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:09:26.93Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Principal.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\SmartFactoryForms\\Principal.cs",
+              "RelativeDocumentMoniker": "SmartFactoryDemo\\SmartFactoryForms\\Principal.cs",
+              "ToolTip": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\SmartFactoryForms\\Principal.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "SmartFactoryDemo\\SmartFactoryForms\\Principal.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T15:29:13.359Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Principal.cs",
+              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\SmartFactoryForms\\Principal.cs",
+              "RelativeDocumentMoniker": "SmartFactoryDemo\\SmartFactoryForms\\Principal.cs",
+              "ToolTip": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\SmartFactoryForms\\Principal.cs",
+              "RelativeToolTip": "SmartFactoryDemo\\SmartFactoryForms\\Principal.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAhwIYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T17:05:39.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Employee_management.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\SmartFactoryForms\\Employee_management.cs",
+              "RelativeDocumentMoniker": "SmartFactoryDemo\\SmartFactoryForms\\Employee_management.cs",
+              "ToolTip": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\SmartFactoryForms\\Employee_management.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "SmartFactoryDemo\\SmartFactoryForms\\Employee_management.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:09:46.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "SmartFactoryDemo",
-              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\SmartFactoryDemo.csproj",
+              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\SmartFactoryDemo.csproj",
               "RelativeDocumentMoniker": "SmartFactoryDemo\\SmartFactoryDemo.csproj",
-              "ToolTip": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\SmartFactoryDemo.csproj",
+              "ToolTip": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\SmartFactoryDemo.csproj",
               "RelativeToolTip": "SmartFactoryDemo\\SmartFactoryDemo.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-05-23T16:05:19.152Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Principal.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\SmartFactoryForms\\Principal.cs",
-              "RelativeDocumentMoniker": "SmartFactoryDemo\\SmartFactoryForms\\Principal.cs",
-              "ToolTip": "C:\\Users\\WooHeeSeop\\source\\repos\\SmartFactoryDemo\\SmartFactoryDemo\\SmartFactoryForms\\Principal.cs [\uB514\uC790\uC778]*",
-              "RelativeToolTip": "..\\..\\..\\source\\repos\\SmartFactoryDemo\\SmartFactoryDemo\\SmartFactoryForms\\Principal.cs [\uB514\uC790\uC778]*",
+              "DocumentIndex": 8,
+              "Title": "DashboardForm.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\SmartFactoryForms\\DashboardForm.cs",
+              "RelativeDocumentMoniker": "SmartFactoryDemo\\SmartFactoryForms\\DashboardForm.cs",
+              "ToolTip": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\SmartFactoryForms\\DashboardForm.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "SmartFactoryDemo\\SmartFactoryForms\\DashboardForm.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T15:29:13.359Z"
+              "WhenOpened": "2025-05-23T15:29:38.312Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "RegisterForm.cs",
-              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\SmartFactoryForms\\RegisterForm.cs",
+              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\SmartFactoryForms\\RegisterForm.cs",
               "RelativeDocumentMoniker": "SmartFactoryDemo\\SmartFactoryForms\\RegisterForm.cs",
-              "ToolTip": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\SmartFactoryForms\\RegisterForm.cs",
+              "ToolTip": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\SmartFactoryForms\\RegisterForm.cs",
               "RelativeToolTip": "SmartFactoryDemo\\SmartFactoryForms\\RegisterForm.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAmwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -175,22 +221,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "MaterialDashBoardController.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialDashBoardController.cs",
+              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialDashBoardController.cs",
               "RelativeDocumentMoniker": "SmartFactoryDemo\\Controller\\MaterialController\\MaterialDashBoardController.cs",
               "ToolTip": "C:\\Users\\WooHeeSeop\\source\\repos\\SmartFactoryDemo\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialDashBoardController.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "..\\..\\..\\source\\repos\\SmartFactoryDemo\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialDashBoardController.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\SmartFactoryDemo\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialDashBoardController.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T15:37:36.381Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "MaterialTransactionControl.cs",
-              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialTransactionControl.cs",
+              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialTransactionControl.cs",
               "RelativeDocumentMoniker": "SmartFactoryDemo\\Controller\\MaterialController\\MaterialTransactionControl.cs",
-              "ToolTip": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialTransactionControl.cs",
+              "ToolTip": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialTransactionControl.cs",
               "RelativeToolTip": "SmartFactoryDemo\\Controller\\MaterialController\\MaterialTransactionControl.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvxMAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -198,33 +244,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "MaterialTransactionControl.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialTransactionControl.cs",
+              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialTransactionControl.cs",
               "RelativeDocumentMoniker": "SmartFactoryDemo\\Controller\\MaterialController\\MaterialTransactionControl.cs",
               "ToolTip": "C:\\Users\\WooHeeSeop\\source\\repos\\SmartFactoryDemo\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialTransactionControl.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "..\\..\\..\\source\\repos\\SmartFactoryDemo\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialTransactionControl.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\SmartFactoryDemo\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialTransactionControl.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T15:37:22.085Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "MaterialListController.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialListController.cs",
+              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialListController.cs",
               "RelativeDocumentMoniker": "SmartFactoryDemo\\Controller\\MaterialController\\MaterialListController.cs",
               "ToolTip": "C:\\Users\\WooHeeSeop\\source\\repos\\SmartFactoryDemo\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialListController.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "..\\..\\..\\source\\repos\\SmartFactoryDemo\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialListController.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\SmartFactoryDemo\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialListController.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T15:36:48.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Material.cs",
-              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\Repository\\Material.cs",
+              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\Repository\\Material.cs",
               "RelativeDocumentMoniker": "SmartFactoryDemo\\Repository\\Material.cs",
-              "ToolTip": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\Repository\\Material.cs",
+              "ToolTip": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\Repository\\Material.cs",
               "RelativeToolTip": "SmartFactoryDemo\\Repository\\Material.cs",
               "ViewState": "AgIAALQAAAAAAAAAAAAjwLoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -232,11 +278,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "MaterialInventoryControll.cs",
-              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialInventoryControll.cs",
+              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialInventoryControll.cs",
               "RelativeDocumentMoniker": "SmartFactoryDemo\\Controller\\MaterialController\\MaterialInventoryControll.cs",
-              "ToolTip": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialInventoryControll.cs",
+              "ToolTip": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialInventoryControll.cs",
               "RelativeToolTip": "SmartFactoryDemo\\Controller\\MaterialController\\MaterialInventoryControll.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -244,22 +290,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "MaterialInventoryControll.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialInventoryControll.cs",
+              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialInventoryControll.cs",
               "RelativeDocumentMoniker": "SmartFactoryDemo\\Controller\\MaterialController\\MaterialInventoryControll.cs",
               "ToolTip": "C:\\Users\\WooHeeSeop\\source\\repos\\SmartFactoryDemo\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialInventoryControll.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "..\\..\\..\\source\\repos\\SmartFactoryDemo\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialInventoryControll.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\SmartFactoryDemo\\SmartFactoryDemo\\Controller\\MaterialController\\MaterialInventoryControll.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T15:34:42.748Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "DashboardForm.cs",
-              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\SmartFactoryForms\\DashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\SmartFactoryForms\\DashboardForm.cs",
               "RelativeDocumentMoniker": "SmartFactoryDemo\\SmartFactoryForms\\DashboardForm.cs",
-              "ToolTip": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\SmartFactoryForms\\DashboardForm.cs",
+              "ToolTip": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\SmartFactoryForms\\DashboardForm.cs",
               "RelativeToolTip": "SmartFactoryDemo\\SmartFactoryForms\\DashboardForm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwBQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -267,22 +313,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DashboardForm.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\SmartFactoryForms\\DashboardForm.cs",
-              "RelativeDocumentMoniker": "SmartFactoryDemo\\SmartFactoryForms\\DashboardForm.cs",
-              "ToolTip": "C:\\Users\\WooHeeSeop\\source\\repos\\SmartFactoryDemo\\SmartFactoryDemo\\SmartFactoryForms\\DashboardForm.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "..\\..\\..\\source\\repos\\SmartFactoryDemo\\SmartFactoryDemo\\SmartFactoryForms\\DashboardForm.cs [\uB514\uC790\uC778]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T15:29:38.312Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "MaterialInventoryControl.cs",
-              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\Controller\\ManagerController\\MaterialInventoryControl.cs",
+              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\Controller\\ManagerController\\MaterialInventoryControl.cs",
               "RelativeDocumentMoniker": "SmartFactoryDemo\\Controller\\ManagerController\\MaterialInventoryControl.cs",
-              "ToolTip": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\Controller\\ManagerController\\MaterialInventoryControl.cs",
+              "ToolTip": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\Controller\\ManagerController\\MaterialInventoryControl.cs",
               "RelativeToolTip": "SmartFactoryDemo\\Controller\\ManagerController\\MaterialInventoryControl.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAQwCsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -290,22 +325,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "MaterialInventoryControl.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\Controller\\ManagerController\\MaterialInventoryControl.cs",
+              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\Controller\\ManagerController\\MaterialInventoryControl.cs",
               "RelativeDocumentMoniker": "SmartFactoryDemo\\Controller\\ManagerController\\MaterialInventoryControl.cs",
               "ToolTip": "C:\\Users\\WooHeeSeop\\source\\repos\\SmartFactoryDemo\\SmartFactoryDemo\\Controller\\ManagerController\\MaterialInventoryControl.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "..\\..\\..\\source\\repos\\SmartFactoryDemo\\SmartFactoryDemo\\Controller\\ManagerController\\MaterialInventoryControl.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\SmartFactoryDemo\\SmartFactoryDemo\\Controller\\ManagerController\\MaterialInventoryControl.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T14:36:23.846Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "MaterialRegisterControll.cs",
-              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\Controller\\ManagerController\\MaterialRegisterControll.cs",
+              "DocumentMoniker": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\Controller\\ManagerController\\MaterialRegisterControll.cs",
               "RelativeDocumentMoniker": "SmartFactoryDemo\\Controller\\ManagerController\\MaterialRegisterControll.cs",
-              "ToolTip": "C:\\Users\\WooHeeSeop\\Desktop\\SmartFactory\\SmartFactory\\SmartFactoryDemo\\Controller\\ManagerController\\MaterialRegisterControll.cs",
+              "ToolTip": "C:\\Users\\WooHeeSeop\\Desktop\\git clone\\SmartFactory\\Mes\\SmartFactoryDemo\\Controller\\ManagerController\\MaterialRegisterControll.cs",
               "RelativeToolTip": "SmartFactoryDemo\\Controller\\ManagerController\\MaterialRegisterControll.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAywBoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
